@@ -2,11 +2,11 @@
 
 int main(){
 	char ch[10];
-	char countMax = 0;
+	int countMax = 0;
 	int frequency = 0;
-	char chMax = *ch;
+	char chMax = '\0';
 	for (char* p = ch; p < ch + 10; p++) {
-		scanf(" %c", p);
+		scanf("%c", p);
 	}
 
 	for (char* p = ch; p < ch + 10; p++) {
